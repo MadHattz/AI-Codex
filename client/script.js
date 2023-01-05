@@ -92,7 +92,7 @@ const handleSubmit = async (e) => {
   
 
   //fetch data from the server side -> bots response
-  const response = await fetch('http://localhost:5000', {
+  const response = await fetch('https://ai-codex-app-w3aq.onrender.com', { //it was previously(http://localhost:5000)
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
